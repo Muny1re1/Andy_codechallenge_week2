@@ -2,7 +2,7 @@
 let num1 = parseFloat(prompt("Enter the starting number"));
 let num2 = parseFloat(prompt("Enter the ending number"));
 function generateArray(num1, num2){
-let result = [];
+const result = [];
 //creating a conditionals and a for loop for each number.
  if( num1 <= num2){
     for(let i= num1; i<= num2; i++){

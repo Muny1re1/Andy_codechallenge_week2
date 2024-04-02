@@ -15,7 +15,7 @@ function primeNumbers(result){
         i += 6
     }
     return true;
-}
+};
 // calling a function to filter prime numbers from an array.
 function filterPrimeNumbers (arr){
     return arr.filter(primeNumbers);
